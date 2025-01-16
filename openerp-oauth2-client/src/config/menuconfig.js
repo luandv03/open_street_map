@@ -30,8 +30,7 @@ import { student } from "./menuconfig/student";
 import { teacher } from "./menuconfig/teacher";
 import { user } from "./menuconfig/user";
 import { demo } from "./menuconfig/demo";
-import { addLocation } from "./menuconfig/add-location";
-import { createTour } from "./menuconfig/create-tour";
+import { tourManagement } from "./menuconfig/tour-management";
 
 export const MENUS = [];
 
@@ -40,8 +39,7 @@ MENUS.push(user);
 MENUS.push(teacher);
 MENUS.push(student);
 MENUS.push(demo);
-MENUS.push(addLocation);
-MENUS.push(createTour);
+MENUS.push(tourManagement);
 
 export const menuIconMap = new Map();
 
